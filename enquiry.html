@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get Involved | Paws of Hope – Adopt, Volunteer or Donate</title>
+  <meta name="description" content="Apply to adopt, volunteer, foster or donate to Paws of Hope Animal Rescue. Every contribution helps abandoned animals in Johannesburg.">
+  <meta name="keywords" content="adopt animal Johannesburg, volunteer animal shelter, foster dog, donate animal rescue">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ========== HEADER & NAVIGATION ========== -->
+  <header>
+    <div class="logo">
+      <h1>Paws of Hope Animal Rescue</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="animals.html">Animals</a></li>
+        <li><a href="enquiry.html">Get Involved</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ========== MAIN CONTENT ========== -->
+  <main>
+
+    <section>
+      <h2>Get Involved</h2>
+      <img src="images/woman-hugging-dog.jpg" alt="Volunteer hugging a rescued dog" style="max-width:100%; height:auto; border-radius:8px; margin-bottom:1rem;">
+      <p>
+        There are many ways you can help the animals at Paws of Hope. Whether you want to adopt, 
+        foster, volunteer your time, or support us financially, we would love to hear from you. 
+        Please complete the relevant form below and we will get back to you as soon as possible.
+      </p>
+    </section>
+
+    <!-- Adoption Application Form -->
+    <section id="adoption-form">
+      <h2>Adoption Application</h2>
+      <p>
+        Submitting this form does not guarantee adoption. We review every application carefully 
+        to ensure the best match for both the animal and the family.
+      </p>
+
+      <form action="#" method="post">
+        <label for="adopt-name">Full name</label><br>
+        <input type="text" id="adopt-name" name="full_name" required><br><br>
+
+        <label for="adopt-email">Email address</label><br>
+        <input type="email" id="adopt-email" name="email" required><br><br>
+
+        <label for="adopt-phone">Contact number</label><br>
+        <input type="tel" id="adopt-phone" name="phone" required><br><br>
+
+        <label for="adopt-address">Physical address</label><br>
+        <textarea id="adopt-address" name="address" rows="3" required></textarea><br><br>
+
+        <label for="adopt-home">Type of home</label><br>
+        <select id="adopt-home" name="home_type">
+          <option value="house">House</option>
+          <option value="apartment">Apartment</option>
+          <option value="other">Other</option>
+        </select><br><br>
+
+        <label>Do you have a secure garden?</label><br>
+        <input type="radio" id="garden-yes" name="garden" value="yes">
+        <label for="garden-yes">Yes</label>
+        <input type="radio" id="garden-no" name="garden" value="no">
+        <label for="garden-no">No</label><br><br>
+
+        <label for="adopt-pets">Current pets (if any)</label><br>
+        <textarea id="adopt-pets" name="current_pets" rows="2"></textarea><br><br>
+
+        <label for="adopt-experience">Experience with pets</label><br>
+        <textarea id="adopt-experience" name="experience" rows="3"></textarea><br><br>
+
+        <label for="adopt-animal">Which animal are you interested in?</label><br>
+        <input type="text" id="adopt-animal" name="animal_interest" placeholder="Name or 'Not sure yet'"><br><br>
+
+        <label for="adopt-reason">Why do you want to adopt?</label><br>
+        <textarea id="adopt-reason" name="reason" rows="3" required></textarea><br><br>
+
+        <button type="submit">Submit Adoption Application</button>
+      </form>
+    </section>
+
+    <!-- Volunteer & Foster Form -->
+    <section id="volunteer-form">
+      <h2>Volunteer & Foster Application</h2>
+      <p>
+        Foster carers provide temporary homes for animals that need extra care or socialisation 
+        before adoption. Training and support are provided.
+      </p>
+
+      <form action="#" method="post">
+        <label for="vol-name">Full name</label><br>
+        <input type="text" id="vol-name" name="full_name" required><br><br>
+
+        <label for="vol-email">Email address</label><br>
+        <input type="email" id="vol-email" name="email" required><br><br>
+
+        <label for="vol-phone">Contact number</label><br>
+        <input type="tel" id="vol-phone" name="phone" required><br><br>
+
+        <label for="vol-area">Area you live in</label><br>
+        <input type="text" id="vol-area" name="area"><br><br>
+
+        <label for="vol-help">How would you like to help?</label><br>
+        <select id="vol-help" name="help_type">
+          <option value="shelter">Volunteer at shelter</option>
+          <option value="foster">Foster care</option>
+          <option value="transport">Transport</option>
+          <option value="admin">Admin</option>
+          <option value="events">Events</option>
+          <option value="other">Other</option>
+        </select><br><br>
+
+        <label for="vol-skills">Relevant experience or skills</label><br>
+        <textarea id="vol-skills" name="skills" rows="3"></textarea><br><br>
+
+        <label for="vol-availability">Availability (days / times)</label><br>
+        <textarea id="vol-availability" name="availability" rows="2"></textarea><br><br>
+
+        <button type="submit">Submit Volunteer Application</button>
+      </form>
+    </section>
+
+    <!-- Donation / Sponsorship Form -->
+    <section id="donation-form">
+      <h2>Donation / Sponsorship Enquiry</h2>
+      <p>
+        Every contribution helps us feed, treat and care for the animals. We will contact you 
+        with secure payment details and options.
+      </p>
+
+      <form action="#" method="post">
+        <label for="don-name">Full name / Organisation name</label><br>
+        <input type="text" id="don-name" name="name" required><br><br>
+
+        <label for="don-email">Email address</label><br>
+        <input type="email" id="don-email" name="email" required><br><br>
+
+        <label for="don-phone">Contact number</label><br>
+        <input type="tel" id="don-phone" name="phone"><br><br>
+
+        <label for="don-type">Type of support</label><br>
+        <select id="don-type" name="support_type">
+          <option value="once-off">Once-off donation</option>
+          <option value="monthly">Monthly giving</option>
+          <option value="sponsor">Sponsor an animal</option>
+          <option value="corporate">Corporate partnership</option>
+          <option value="other">Other</option>
+        </select><br><br>
+
+        <label for="don-message">Message or questions</label><br>
+        <textarea id="don-message" name="message" rows="4"></textarea><br><br>
+
+        <button type="submit">Submit Enquiry</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer>
+    <p>Paws of Hope Animal Rescue – Giving abandoned animals a second chance.</p>
+    <p>&copy; 2026 Paws of Hope Animal Rescue. All rights reserved.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
